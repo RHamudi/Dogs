@@ -41,15 +41,20 @@ button, input {
     margin: 0 auto;
 }
 
-.navbar .active {
+.mainContainer {
+    margin-top: 4rem;
+}
+
+nav .active {
     background: white;
-    box-shadow: 0 0 0 3px #fea;
     border-color: #fb1;
 }
 
-.navbar .active svg > * { 
+nav .active svg > * { 
     fill: #fb1;
 }
+
+
 
 a {
     text-decoration: none;
